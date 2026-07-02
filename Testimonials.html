@@ -318,18 +318,18 @@
 
                 <h2>START A CONVERSATION</h2>
 
-                <form method="post" action="bat/rd-mailform.php">
-
+                <form method="post" action="https://api.web3forms.com/submit" method="POST">
+					<input type="hidden" name="access_key" value="46753949-dcc0-4cfa-b348-f8df02043c84">
                     <div class="form-wrap">
                         <input type="text"
                                name="name"
-                               placeholder="Your Name">
+                               placeholder="Your Name" required>
                     </div>
 
                     <div class="form-wrap">
                         <input type="email"
                                name="email"
-                               placeholder="Email Address">
+                               placeholder="Email Address" required>
                     </div>
 
                     <div class="form-wrap">
@@ -340,7 +340,7 @@
 
                     <div class="form-wrap">
                         <textarea name="message"
-                                  placeholder="Your Message"></textarea>
+                                  placeholder="Your Message" required></textarea>
                     </div>
 
                     <button class="contact-btn" type="submit">
